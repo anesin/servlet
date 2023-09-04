@@ -32,7 +32,7 @@ public class FrontControllerServletV2 extends HttpServlet {
 
   @Override
   protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-    System.out.println("FrontControllerServletV1.service");
+    System.out.println("FrontControllerServletV3.service");
 
     String requestURI = request.getRequestURI();
     ControllerV2 controller = controllerMap.get(requestURI);
